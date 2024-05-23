@@ -8,18 +8,9 @@ import './styles/Barnav.css';
 function BarNav () {
     return(
         <header>
-            <div className="logo">
-                <Link to="/">
-                    <img src={confLogo} alt="Logo de la Marca"/>
-                </Link>
-            </div>
-            
             <div className="nav-elements-container">
                 <BarNavMenu />
-                <Search />
-                 
-                    <CartPreview />
-
+                <CartPreview />
             </div> 
         </header>
     )

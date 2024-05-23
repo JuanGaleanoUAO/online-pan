@@ -83,3 +83,21 @@
 .add-cart--main-page span {
     font-size: 1.6rem;
 }
+
+
+.product-customizer {
+    margin: 20px 0;
+}
+
+.product-customizer div {
+    margin-bottom: 10px;
+}
+
+.product-customizer label {
+    margin-right: 10px;
+}
+
+.product-customizer select,
+.product-customizer input[type="checkbox"] {
+    margin-right: 5px;
+}

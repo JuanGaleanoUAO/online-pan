@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer-container">
-                <p>© 2020 Todos los derechos reservados</p>
-                <p>Email: anderson.oroya@gmail.com</p>
+                <p>© 2024 Todos los derechos reservados</p>
+                <p>Email: catalina.nino@uao.edu.co</p>
             </div>
         </footer>
     )

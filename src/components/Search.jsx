@@ -22,7 +22,7 @@ function Search() {
             <section className="search-container">
                 <div className="search-box">
                     <i className="icon--close icon" onClick={changeState}></i>
-                    <p>Escribí lo que estás buscando...</p>
+                    <p>Escribe lo que estás buscando...</p>
                     <form className="form-search" action="">
                         <input className="form-search__input" type="text"
                             placeholder="Buscá entre nuestros productos"

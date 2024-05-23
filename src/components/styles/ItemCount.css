@@ -1,8 +1,40 @@
 .item-count-main {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     margin: 15px 0px;
     max-width: 270px;
+}
+
+.customization-section {
+    margin-bottom: 10px; /* Aumenta el espacio entre la sección de personalización y el resto del contenido */
+}
+
+.customization-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.customization-form div {
+    margin-bottom: 20px; /* Aumenta el espacio entre los elementos de personalización */
+}
+
+.customization-form label {
+    margin-right: 10px;
+    font-size: 1.2rem; /* Aumenta el tamaño de la letra */
+}
+
+.customization-form select,
+.customization-form input[type="checkbox"] {
+    margin-right: 10px;
+    font-size: 1.2rem; /* Aumenta el tamaño de la letra */
+}
+
+.price-description {
+    margin-bottom: 10px; /* Ajusta el espacio entre el precio/descripción y la personalización */
+    font-size: 1.4rem; /* Aumenta el tamaño de la letra */
 }
 
 .count-container {
@@ -12,6 +44,7 @@
     justify-content: space-between;
     padding: 0px 7px;
     width: 100px;
+    margin-bottom: 10px;
 }
 
 .count-container:hover {
@@ -24,7 +57,6 @@
     font-size: 1.6rem;
 }
 
-
 .add-cart {
     border-radius: 10px;
     background-color: var(--primary-green);
@@ -32,6 +64,7 @@
     font-weight: 600;
     color: white;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .add-cart--detail-page {

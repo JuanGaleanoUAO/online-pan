@@ -25,7 +25,7 @@ function CartPreview() {
                 {cart.length === 0 && <i className="cart-container__icon gren"></i>}
                 <div className="cart-container__box-cart">
                     <Link to="/cart">
-                        <span className="cart-title">MI CARRITO</span>
+                        <span className="cart-title">Mi carrito</span>
                     </Link>
                     <div className="cart-quantity">
                         <span className="cart-quantity__count">{sumaTotal}</span>
